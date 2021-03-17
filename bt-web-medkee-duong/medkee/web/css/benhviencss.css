@@ -1,0 +1,363 @@
+
+.path {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.path .breadcrumb {
+    padding-left: 0;
+    background: white;
+}
+
+.path .breadcrumb-item+.breadcrumb-item::before {
+    content: ">";
+}
+.more--header{
+    display: flex;
+    justify-content: space-between;
+}
+.more-header-title{
+    color: #1150a0;
+    font-size: 30px;
+}
+.more-header-xemthem{
+    font-size: 23px;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+.hospital {
+    margin-bottom: 55px;
+}
+.hospital_images{
+    padding: 0px;
+}
+.row.image--small{
+    margin-right: 0px
+}
+.hospital_images-big {
+    margin-bottom: 15px;
+}
+
+.hospital_images-big img {
+    width: 100%;
+}
+
+button.owl-next{
+    position: absolute;
+    top: 0;
+    right: 0%;
+    
+}
+button.owl-next > span {
+    font-size: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+button.owl-prev{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+button.owl-prev > span {
+    font-size: 40px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/* .hospital_images-small img {
+    width: 100%;
+    height: 100%;
+} */
+/* .hospital_images-small > .row{
+    margin-right:0px ;
+} */
+    /* .hospital_images-small .col,
+    .col-1,
+    .col-10,
+    .col-11,
+    .col-12,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-auto,
+    .col-lg,
+    .col-lg-1,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-lg-auto,
+    .col-md,
+    .col-md-1,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-auto,
+    .col-sm,
+    .col-sm-1,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9,
+    .col-sm-auto,
+    .col-xl,
+    .col-xl-1,
+    .col-xl-10,
+    .col-xl-11,
+    .col-xl-12,
+    .col-xl-2,
+    .col-xl-3,
+    .col-xl-4,
+    .col-xl-5,
+    .col-xl-6,
+    .col-xl-7,
+    .col-xl-8,
+    .col-xl-9,
+    .col-xl-auto {
+        padding-right: 0px;
+        padding-left: 13px;
+    } */
+
+/* .hospital_infor {
+    margin: 25px 0;
+} */
+
+.hospital_infor .infor {
+    padding: 10px 0;
+}
+
+.hospital_infor .name h5 {
+    color: #5e87bd;
+}
+
+.hospital_infor .checked {
+    color: orange;
+}
+
+.hospital_infor .rating .fa {
+    font-size: 13px
+}
+
+.hospital_infor .detail-infor {
+    height: 71px;
+    overflow: hidden;
+}
+
+/* .detail .detail_menu .btn-group>.btn-group:not(:last-child)>.btn,
+.btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+    height: 55px;
+    background: #1150a0;
+    margin-right: 4px;
+    border-radius: 10px 10px 0 0;
+} */
+
+/* .detail .detail_menu .btn-group>.btn-group:not(:first-child)>.btn,
+.btn-group>.btn:not(:first-child) {
+    background: #1150a0;
+    border-radius: 10px 10px 0 0;
+} */
+.detail .detail_menu .btn.btn-secondary{
+    height: 55px;
+    background: #1150a0;
+    margin-right: 4px;
+    border-radius: 10px 10px 0 0;
+}
+/* .detail .detail_menu .btn.btn-secondary:hover{
+    background: #4d9c49;
+} */
+/* .detail .detail_menu .btn-group>.btn-group:not(:last-child)>.btn,
+.btn-group>.btn:not(:last-child):not(.dropdown-toggle):hover {
+    background: #4d9c49;
+} */
+
+/* .detail .detail_menu .btn-group>.btn-group:not(:first-child)>.btn,
+.btn-group>.btn:not(:first-child):hover {
+    background: #4d9c49;
+} */
+
+.detail .detail_main {
+    /* height: 685px; */
+    background: #f7f7f7;
+    /* overflow: auto; */
+    padding: 64px 25px;
+}
+
+.detail_main_gioithieu_image{
+    text-align: center;
+    /* background: url("/med/medkee/yii1/assets/images/thietbiyte.png");
+    background-size: cover;
+    background-position: center; */
+}
+
+.detail_main_gioithieu_image img {
+    width: 100%;
+    /* height: 267px; */
+    margin: 0 auto;
+}
+.ttbv{
+    color: #1150a0;
+    font-size: 30px;
+}
+.mota_bv{
+    font-size: 18px;
+}
+.detail_main_gioithieu_text{
+
+    margin-top: 10px;
+    text-align: justify;
+    padding: 20px 20px;
+   
+}
+.more{
+    margin: 70px 0px;
+    
+}
+.more h3, .more h6{
+    color: #1150a0;
+}
+.more_hospital {
+    margin-top: 55px;
+}
+.more_hospital_infor{
+    height: 120px;
+    overflow: hidden;
+    font-size: 14px;
+
+}
+.more_hospital_img img{
+    width: 100%;
+    /* height: 120px; */
+}
+.more_hospital_infor{
+    padding: 10px;
+}
+.special{
+    background: #4d9c49 !important
+}
+
+.header-logo .brand img{
+    width: 152px;
+}
+
+/* .row.image--small li{
+    margin-top: 8px;
+} */
+
+
+@media only screen and (max-width: 768px){
+    /* body{
+        font-size: 13px;
+    } */
+    /* .hospital_infor .detail-infor{
+        height: 100px;
+    } */
+    /* .detail .detail_menu .btn-group>.btn-group:not(:last-child)>.btn, .btn-group>.btn:not(:last-child):not(.dropdown-toggle),
+.detail .detail_menu .btn-group>.btn-group:not(:first-child)>.btn, .btn-group>.btn:not(:first-child){
+    font-size: 9px;
+} */
+.path{
+    margin-bottom: 5px;
+}
+.ttbv{
+    font-size: 18px;
+}
+.mota_bv{
+    font-size: 16px;
+}
+button.owl-next > span {
+    font-size: 30px;
+    margin-left: 3px;
+    margin-right: 3px;
+
+}
+button.owl-prev{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+button.owl-prev > span {
+    font-size: 30px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.detail .detail_menu .btn.btn-secondary{
+    font-size: 9px;
+}
+}
+@media only screen and (max-width: 768px){
+
+    .more-header-title{
+      font-size: 27px; 
+  }
+  }
+  @media only screen and (max-width: 576px){
+    .more-header-xemthem{
+        font-size: 22px;
+        margin-top: 0px;
+        margin-bottom: 0;
+        padding-left: 40px;
+    }
+    .more-header-title{
+      font-size: 22px; 
+  }
+  }
+  @media only screen and (max-width: 576px) and (min-width: 442px){
+    .more-header-xemthem{
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: 0;
+
+    }
+  }
+  @media only screen and (max-width: 412px){
+    .more-header-xemthem{
+        font-size: 20px;
+        margin-top: 0px;
+        margin-bottom: 0;
+        padding-left: 50px;
+    }
+    .more-header-title{
+      font-size: 20px; 
+  }
+  }
+  @media only screen and (max-width: 360px){
+    .more-header-xemthem{
+        font-size: 17px;
+        margin-top: 0px;
+        margin-bottom: 0;
+    
+        padding-left: 50px;
+    }
+    .more-header-title{
+      font-size: 17px; 
+  }
+  }
